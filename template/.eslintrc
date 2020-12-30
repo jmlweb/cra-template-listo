@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    "react/jsx-props-no-spreading": [0],
+    "react/react-in-jsx-scope": [0],
+    "react/jsx-filename-extension": [0]
+  }
+}
