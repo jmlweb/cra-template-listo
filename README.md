@@ -10,3 +10,11 @@
 - [scene based](https://ijk.ghost.io/structure-react-project/) folder structure separated by authorization (but agnostic for auth implementation)
 - [React Helmet](https://github.com/nfl/react-helmet)
 - [React Snapshot](https://github.com/geelen/react-snapshot) for static generation of public routes
+
+## How to use it
+
+`npx create-react-app my-app — template listo`
+
+or
+
+`yarn create react-app my-app — template listo`
