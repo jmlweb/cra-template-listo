@@ -7,7 +7,7 @@ const App = () => (
   <>
     <Helmet>
       <title>Listo</title>
-      <meta name="description" content="Listo CRA Template" />
+      <meta name="description" content="Web site created using Listo CRA Template" />
     </Helmet>
     <AppStyles>
       <BrowserRouter>

@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 `;
 
 const Header = styled.header`
-  background-color: var(--color-muted);
+  background-color: ${(props) => props.theme.colors.muted};
   display: flex;
   justify-content: space-between;
   align-items: center;
