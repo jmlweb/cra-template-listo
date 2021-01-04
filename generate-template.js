@@ -69,8 +69,10 @@ const createTemplateJSON = () => {
   }, {});
 
   const content = JSON.stringify({
-    dependencies,
-    scripts,
+    package: {
+      dependencies,
+      scripts,
+    },
   }, null, 2);
   return writeFile(getPath('template.json'), content);
 };
