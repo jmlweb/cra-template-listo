@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import styled from 'styled-components/macro';
 
 const SWrapper = styled.div`
@@ -78,8 +78,8 @@ const Home = () => (
           </SListLink>
         </SListItem>
         <SListItem>
-          <SListLink href="https://github.com/nfl/react-helmet">
-            React Helmet
+          <SListLink href="https://github.com/staylor/react-helmet-async">
+            React Helmet Async
           </SListLink>
         </SListItem>
         <SListItem>
